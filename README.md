@@ -1,4 +1,4 @@
 node-examples
 =============
 
-A set o node.js examples.
+A set of node.js examples.
