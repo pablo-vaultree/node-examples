@@ -1,13 +1,10 @@
 {
-    "name": "mini-chat",
-    "version": "0.0.1",
-    "description": "Chat app.",
-    "engines": {
-        "node": "0.6.x",
-        "npm": "1.1.x"
-    },
-    "dependencies": {
-        "express": ">= 2.x.x",
-        "now": ">= 0.x.x"
-    }
+  "name": "simple-node-socket.io-chat",
+  "version": "0.0.1",
+  "dependencies": {
+    "socket.io": "0.9.x"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
 }
