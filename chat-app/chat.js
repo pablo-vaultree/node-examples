@@ -12,7 +12,7 @@ var httpServer = http.createServer(function(request, response) {
 
 }).listen(process.env.PORT || 1337);
 
-
+console.log("Chat Running at 1337...");
 
 var io = require("socket.io").listen(httpServer);
 io.sockets.on("connection", function(socket) {
